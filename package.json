@@ -5,8 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "start-prod": "node server.js"
+    "start-dev": "nodemon server.js",
+    "start": "node server.js",
+    "git-stage-commit-push": "git add . && git commit -m 'automatic change update from Node' && git push"
   },
   "repository": {
     "type": "git",
