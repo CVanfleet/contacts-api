@@ -9,5 +9,5 @@ const routeAmanda = (req, res) => {
 
 module.exports = {
     routeHudson,
-    routeAmanda
+    routeAmanda,
 }

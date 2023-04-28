@@ -1,0 +1,23 @@
+[
+    {
+        "firstname": "Amanda Vanfleet",
+        "lastname": "Ith",
+        "email": "amandavanith@gmail.com",
+        "favoriteColor": "red",
+        "birthday": "1998-03-06T18:25:43.511Z"
+    },
+    {
+        "firstname": "Hudson Wayne",
+        "lastname": "Vanfleet",
+        "email": "huddybuddy@gmail.com",
+        "favoriteColor": "blue",
+        "birthday": "2021-02-08T12:00:00.000Z"
+    },
+    {
+        "firstname": "Zac Stewart",
+        "lastname": "Vanfleet",
+        "email": "zackyboy@gmail.com",
+        "favoriteColor": "green",
+        "birthday": "1996-03-12T12:00:00.000Z"
+    }
+]

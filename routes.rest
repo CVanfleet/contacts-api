@@ -1,0 +1,19 @@
+// LOCALHOST
+###
+GET http://localhost:3000/contacts
+###
+GET http://localhost:3000/contacts/644b440a5e4cf9bff532787d
+###
+GET http://localhost:3000/contacts/644b440a5e4cf9bff532787e
+###
+GET http://localhost:3000/contacts/644b440a5e4cf9bff532787f
+
+// RENDER
+###
+GET https://cse341-hrf0.onrender.com/contacts
+###
+GET https://cse341-hrf0.onrender.com/contacts/644b440a5e4cf9bff532787d
+###
+GET https://cse341-hrf0.onrender.com/contacts/644b440a5e4cf9bff532787e
+###
+GET https://cse341-hrf0.onrender.com/contacts/644b440a5e4cf9bff532787f
