@@ -1,11 +1,16 @@
 // express web server 
 const MongoClient = require('mongodb').MongoClient;
+const BodyParser = require("body-parser");
 const mongodb = require('./db/connect');
 
 
 var express = require('express');
 const app = express();
+// Body Parser
+app.use(BodyParser.json());
+app.use(BodyParser.urlencoded({ extended: true}));
 
+// Routes
 app.use('/', require('./routes'));
 
 const port = 3000;
