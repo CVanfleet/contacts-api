@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-dev": "nodemon server.js",
     "start": "node server.js",
-    "git-stage-commit-push": "git add . && git commit -m 'automatic change update from Node' && git push"
+    "git-stage-commit-push": "git add . && git commit -m 'automatic change update from Node' && git push",
+    "swagger-autogen": "node ./swagger.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,9 @@
     "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongodb": "^5.3.0"
+    "mongodb": "^5.3.0",
+    "swagger-autogen": "^2.23.1",
+    "swagger-ui-express": "^4.6.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
