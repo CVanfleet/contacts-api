@@ -8,7 +8,7 @@
   "host": "https://cse341-hrf0.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/contacts/": {
