@@ -1,14 +1,15 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "My API",
-    "description": "Description",
+    "title": "CSE-341 Personal API",
+    "description": "This API is being used for my personal project in CSE-341",
     "version": "1.0.0"
   },
   "host": "cse341-hrf0.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https"
+    "https",
+    "http"
   ],
   "paths": {
     "/contacts/": {

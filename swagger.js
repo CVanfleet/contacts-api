@@ -5,8 +5,8 @@ const doc = {
     title: 'CSE-341 Personal API',
     description: 'This API is being used for my personal project in CSE-341',
   },
-  host: 'https://cse341-hrf0.onrender.com',
-  schemes: ['https'],
+  host: 'cse341-hrf0.onrender.com',
+  schemes: ['https', 'http'],
 };
 
 const outputFile = './path/swagger-output.json';
