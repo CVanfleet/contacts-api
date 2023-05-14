@@ -108,9 +108,9 @@ const deleteContact = async (req, res, next) => {
 
     try {
         const result = await collection.deleteOne({_id: contactId});
-        res.status(202).send(`Contact record (${contactId}) was deleted successfully`);
+        res.status(202).send(`{"responseMessage": "Contact record (${contactId}) was deleted successfully"}`);
     } catch (error) {
-        res.status(502).send(`Something went wrong when trying to delete contact ${contactId}:` + error);
+        res.status(502).send(`{"responseMessage": "Something went wrong when trying to delete contact ${contactId}: ${error}"}`);
     }
 } 
 

@@ -15,7 +15,7 @@ Content-Type: application/json
     "birthday": "1998-08-10T12:00:00.000Z"
 }
 ### Update contact
-PUT http://localhost:3000/contacts/6456bbe01b9232d62e5c0ca2 HTTP/1.1
+PUT http://localhost:3000/contacts/64607477e5350047f743b5ed HTTP/1.1
 content-type: application/json
 
 {
@@ -26,7 +26,7 @@ content-type: application/json
     "birthday": "1998-06-03T12:00:00.000Z"
 }
 ### Delete Contact
-DELETE http://localhost:3000/contacts/6456bbe01b9232d62e5c0ca2 HTTP/1.1
+DELETE http://localhost:3000/contacts/64607477e5350047f743b5ed HTTP/1.1
 
 // RENDER
 ### Get all contacts
